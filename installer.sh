@@ -17,7 +17,7 @@
 
 ssh -i /var/lib/jenkins/.ssh/jeffs_pi pi@10.42.0.84 '
 
-ls -al
+python3 /home/pi/Documents/TELE6530/cda-lab-modules-jeffmachyo/src/test/python/programmingtheiot/part01/integration/system/SystemPerformanceManagerTest.py
 
 '
 
