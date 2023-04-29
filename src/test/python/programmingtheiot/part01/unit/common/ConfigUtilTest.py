@@ -35,6 +35,11 @@ class ConfigUtilTest(unittest.TestCase):
 	def setUpClass(self):
 		logging.basicConfig(format = '%(asctime)s:%(module)s:%(levelname)s:%(message)s', level = logging.DEBUG)
 		logging.info("Testing ConfigUtil class...")
+		
+
+		if (self.configFile is None):
+			self.configFile = ConfigConst.DEFAULT_TEST_CONFIG_FILE_NAME
+		
 		self.configUtil = ConfigUtil(configFile = self.configFile)
 		
 	def setUp(self):
