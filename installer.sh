@@ -12,7 +12,9 @@ PYTHONPATH="/tmp/Greenhouse-Monitor/src/main/python:/tmp/Greenhouse-Monitor/src/
 export PYTHONPATH
 python3 /tmp/Greenhouse-Monitor/src/test/python/programmingtheiot/part01/unit/system/SystemCpuUtilTaskTest.py
 python3 /tmp/Greenhouse-Monitor/src/test/python/programmingtheiot/part01/unit/system/SystemMemUtilTaskTest.py
+python3 /tmp/Greenhouse-Monitor/src/test/python/programmingtheiot/part01/unit/common/ConfigUtilTest.py
 python3 /tmp/Greenhouse-Monitor/src/test/python/programmingtheiot/part01/integration/system/SystemPerformanceManagerTest.py
+python3 /tmp/Greenhouse-Monitor/src/test/python/programmingtheiot/part01/integration/app/ConstrainedDeviceAppTest.py
 
 '
 
