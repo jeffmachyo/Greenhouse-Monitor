@@ -191,9 +191,9 @@ class ConfigUtil(metaclass = Singleton):
 			self.configParser.read(self.configFile)
 			self.isLoaded = True
 		else:
-			logging.info("Can't load %s. Trying default: %s", self.configFile, ConfigConst.DEFAULT_CONFIG_FILE_NAME)
+			logging.info("Can't load %s. Trying default: %s", self.configFile, ConfigConst.DEFAULT_TEST_CONFIG_FILE_NAME)
 			
-			self.configFile = ConfigConst.DEFAULT_CONFIG_FILE_NAME
+			self.configFile = ConfigConst.DEFAULT_TEST_CONFIG_FILE_NAME
 			self.configParser.read(self.configFile)
 			self.isLoaded = True
 		

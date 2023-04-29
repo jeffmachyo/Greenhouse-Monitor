@@ -198,6 +198,9 @@ CDA_SYSTEM_PERF_MSG_RESOURCE          = PRODUCT_NAME + '/' + CONSTRAINED_DEVICE 
 
 # NOTE: You will need to update this!!
 DEFAULT_CONFIG_FILE_NAME = '/home/jeff/Documents/TELE6530/cda-lab-modules-jeffmachyo/config/PiotConfig.props'
+DEFAULT_TEST_CONFIG_FILE_NAME = '/tmp/Greenhouse-Monitor/config/PiotConfig.props'
+DEFAULT_RUN_CONFIG_FILE_NAME = '/home/jeff/Documents/TELE6530/cda-lab-modules-jeffmachyo/config/PiotConfig.props'
+
 DEFAULT_CRED_FILE_NAME   = '../../../../../../../cred/PiotCred.props'
 
 TEST_GDA_DATA_PATH_KEY = 'testGdaDataPath'
