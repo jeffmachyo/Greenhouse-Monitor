@@ -14,7 +14,7 @@
 #     << EOF
 # python3 /home/pi/Documents/TELE6530/cda-lab-modules-jeffmachyo/src/test/python/programmingtheiot/part03/integration/connection/MqttClientConnectorTest.py
 #     """
-scp -i /var/lib/jenkins/.ssh/jeffs_pi -r /var/lib/jenkins/workspace/Greenhouse-Monitor pi@10.42.0.84/tmp
+scp -i /var/lib/jenkins/.ssh/jeffs_pi -r /var/lib/jenkins/workspace/Greenhouse-Monitor pi@10.42.0.84:/tmp
 
 ssh -i /var/lib/jenkins/.ssh/jeffs_pi pi@10.42.0.84 '
 ls /tmp
