@@ -20,9 +20,9 @@ enableCrypt = False
 # MQTT client configuration information
 #
 [Mqtt.GatewayService]
-credFile       = /home/jeff/Documents/TELE6530/mosquitto/client_certs/client.crt
-credKey        = /home/jeff/Documents/TELE6530/mosquitto/client_certs/client.key
-certFile       = /home/jeff/Documents/TELE6530/mosquitto/client_certs/ca.crt
+credFile       = /home/pi/Documents/TELE6530/mosquitto/client_certs/client.crt
+credKey        = /home/pi/Documents/TELE6530/mosquitto/client_certs/client.key
+certFile       = /home/pi/Documents/TELE6530/mosquitto/client_certs/ca.crt
 host           = 10.42.0.84
 port           = 1883
 securePort     = 8883
