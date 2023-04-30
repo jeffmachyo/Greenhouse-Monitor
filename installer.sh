@@ -16,6 +16,17 @@ python3 /tmp/Greenhouse-Monitor/src/test/python/programmingtheiot/part01/unit/co
 python3 /tmp/Greenhouse-Monitor/src/test/python/programmingtheiot/part01/integration/system/SystemPerformanceManagerTest.py
 python3 /tmp/Greenhouse-Monitor/src/test/python/programmingtheiot/part01/integration/app/ConstrainedDeviceAppTest.py
 
+python3 /tmp/Greenhouse-Monitor/src/test/python/programmingtheiot/part02/integration/app/DeviceDataManagerNoCommsTest.py
+python3 /tmp/Greenhouse-Monitor/src/test/python/programmingtheiot/part02/integration/connection/PersistenceClientAdapterTest.py
+python3 /tmp/Greenhouse-Monitor/src/test/python/programmingtheiot/part02/integration/data/DataIntegrationTest.py
+python3 /tmp/Greenhouse-Monitor/src/test/python/programmingtheiot/part02/integration/embedded/HumidityI2cSensorAdapterTaskTest.py
+python3 /tmp/Greenhouse-Monitor/src/test/python/programmingtheiot/part02/integration/embedded/PressureI2cSensorAdapterTaskTest.py
+python3 /tmp/Greenhouse-Monitor/src/test/python/programmingtheiot/part02/integration/embedded/TemperatureI2cSensorAdapterTaskTest.py
+
+python3 /tmp/Greenhouse-Monitor/src/test/python/programmingtheiot/part02/integration/system/ActuatorAdapterManagerTest.py
+python3 /tmp/Greenhouse-Monitor/src/test/python/programmingtheiot/part02/integration/system/SensorAdapterManagerTest.py
+
+
 
 
 '
