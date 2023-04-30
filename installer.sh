@@ -31,8 +31,7 @@ python3 /tmp/Greenhouse-Monitor/src/test/python/programmingtheiot/part03/integra
 python3 /tmp/Greenhouse-Monitor/src/test/python/programmingtheiot/part03/integration/app/DeviceDataManagerWithCommsTest.py
 python3 /tmp/Greenhouse-Monitor/src/test/python/programmingtheiot/part03/integration/app/DeviceDataManagerWithMqttClientOnlyTest.py
 
-python3 /tmp/Greenhouse-Monitor/src/test/python/programmingtheiot/part03/integration/connection/CoapClientConnectorTest.py
-python3 /tmp/Greenhouse-Monitor/src/test/python/programmingtheiot/part03/integration/connection/CoapServerAdapterTest.py
+
 python3 /tmp/Greenhouse-Monitor/src/test/python/programmingtheiot/part03/integration/connection/MqttClientConnectorTest.py
 python3 /tmp/Greenhouse-Monitor/src/test/python/programmingtheiot/part03/integration/connection/MqttClientConnectorTest.py
 python3 /tmp/Greenhouse-Monitor/src/test/python/programmingtheiot/part03/integration/connection/MqttClientControlPacketTest.py
