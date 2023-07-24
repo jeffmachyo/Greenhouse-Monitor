@@ -42,7 +42,20 @@ class IotDataContext(BaseIotData):
 	def setDeviceID(self,idStr:str=None):
 		if (idStr and len(idStr)>0):
 			self.deviceID = idStr
-		    
+	
+	def setTypeCategoryID(self,val:int = ConfigConst.DEFAULT_TYPE_ID):
+		self.typeCategoryID = val
+
+
+	def __str__(self):
+		s = BaseIotData.__str__(self) + ',{}={},{}={}'
+		return s.format(ConfigConst.DEVICE_ID_PROP,self.deviceID,ConfigConst.TYPE_CATEGORY_ID_PROP,self.typeCategoryID)
+	
+	def _handleUpdateData(self,data: BaseIotData = None):
+		
+		if data and isinstance(data,IotDataContext):
+			self.setDeviceID(data.getDeviceID())
+			self.setTypeCategoryID(data.getTypeCategoryID())
 	# def getSensorType(self) -> int:
 	# 	"""
 	# 	Returns the sensor type to the caller.
